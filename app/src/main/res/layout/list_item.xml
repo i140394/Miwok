@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/image"
+        android:src="@mipmap/ic_launcher_round"
+        android:background="#FFF7DA"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:contentDescription="@string/label_image" />
+
+    <RelativeLayout
+        android:id="@+id/textHolder"
+        android:layout_width="wrap_content"
+        android:layout_height="88dp">
+
+        <TextView
+            android:id="@+id/miwokTransation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/miwok_translation"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:ignore="RelativeOverlap" />
+
+        <TextView
+            android:id="@+id/defaultTranslation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/miwokTransation"
+            android:layout_alignStart="@+id/miwokTransation"
+            android:layout_below="@+id/miwokTransation"
+            android:text="@string/default_translation"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/play_btn"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:contentDescription="@string/play_icon_desc"
+            android:src="@drawable/ic_play_arrow_white_24dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

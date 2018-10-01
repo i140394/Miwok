@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Miwok</string>
+    <string name="number">Numbers</string>
+    <string name="family_members">Family</string>
+    <string name="phrases">Phrases</string>
+    <string name="colors">Colors</string>
+    <string name="miwok_translation">Miwok Translation</string>
+    <string name="default_translation">Default Translation</string>
+    <string name="play_icon_desc">Play Icon</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="label_image">Image</string>
+</resources>
