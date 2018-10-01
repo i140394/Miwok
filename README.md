@@ -1,3 +1,3 @@
 # Miwok
 
-A Simple Android app for Language Learning
+A Simple Android app for Basic Miwok Language Learning
